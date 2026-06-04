@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -11,12 +13,12 @@ public class Dashboard extends JFrame {
 
         this.account = account;
 
-        setTitle("Bank Dashboard");
+        setTitle("Bank src.Dashboard");
         setSize(400, 350);
         setLayout(null);
 
         // 🔹 Logo
-        ImageIcon logo = new ImageIcon("logo.png");
+        ImageIcon logo = new ImageIcon("src/logo.png");
         Image img = logo.getImage().getScaledInstance(80, 50, Image.SCALE_SMOOTH);
         logo = new ImageIcon(img);
 

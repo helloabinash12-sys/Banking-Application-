@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -25,7 +27,7 @@ public class loginPage extends JFrame implements ActionListener {
         add(logoPanel);
 
         // 🔹 LOGO IMAGE
-        ImageIcon logo = new ImageIcon("logo.png");
+        ImageIcon logo = new ImageIcon("src/logo.png");
         Image img = logo.getImage().getScaledInstance(120, 120, Image.SCALE_SMOOTH);
         logo = new ImageIcon(img);
 
